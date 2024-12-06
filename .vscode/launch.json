@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open Opdracht 2.2.2 HTML.html",
+            "file": "c:\\Users\\Yuusuf ROC\\Documents\\GitHub\\html-opdrachten-Periode-2\\Opdracht 2.2.2 HTML.html"
+        }
+    ]
+}
