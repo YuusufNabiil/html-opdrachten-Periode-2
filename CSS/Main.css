@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: rgb(95, 30, 30);
+    background-color: rgb(255, 255, 255);
     color: #333;
 }
 
@@ -20,25 +20,13 @@ body {
     color: rgb(255, 255, 255);
     font-size: medium;
 }
-
-/* Header */
-header {
-    background: rgb(68, 35, 35);
+header img{
+    max-width: 100%;
+    height: auto;
+}
+header a {
     color: #ffffff;
-    padding: 1rem 0;
-}
-
-header h1 {
-    align-items: center;
-    margin: 0;
-    display: inline;
-}
-
-header img {
-    height: 70px;
-    width: 70px;
-    margin-top: 0px;
-    margin-left: 0px;
+    text-decoration: solid;
 }
 
 .flexContainer {
@@ -46,8 +34,16 @@ header img {
     justify-content: center;
 }
 
+nav img {
+    margin-top: 7px;
+    display: flex;
+    justify-content:space-around;
+    height: 50px;
+    width: 50px;
+ }
+
 nav {
-    background-color: rgb(227, 226, 226);
+    background-color: rgb(200, 200, 200);
     border: 5px;
     display: flex;
     justify-content: space-around;
@@ -65,22 +61,20 @@ nav a {
 
 nav a:hover {
     color: rgb(68, 35, 35);
-    text-decoration: underline overline rgb(68, 35, 35);
+    text-decoration: underline rgb(68, 35, 35);
     text-decoration-thickness: 2px;
 }
 
-nav img {
-    width: 10px;
-    height: 10px;
-}
-
-.fotoH2 img {
+header .fotoH2 img {
     max-width: 100%;
     height: auto;
 }
 
+
+
+
 .collectie header {
-    font-size: 50px;
+    font-size: 70px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     text-align: center;
@@ -89,6 +83,7 @@ nav img {
     max-width: 100%;
     height: auto;
 }
+
 
 .gridkleding {
     display: grid;
@@ -99,11 +94,15 @@ nav img {
     max-width: 100%;
 }
 
+.gridkleding img:hover{
+    opacity: 0.5;
+}
+
 .gridkleding div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 40px rgb(255, 0, 0);
     border-radius: 5px;
 }
 
@@ -131,7 +130,42 @@ nav img {
     text-decoration: line-through;
 }
 
-/* Footer */
+header{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.overonsUitgebreid{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 10%;
+    grid-template-columns: repeat(auto-fit);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+   
+}
+
+ul{
+display: grid;
+justify-content:center;
+text-align: left;
+}
+
+#vetgedrukt{
+    font-weight: 500;
+}
+
+
+
+
+
 #footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
